@@ -117,7 +117,7 @@ Start the Kafka console consumer, like the producer, specifying the proxy host a
 $KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server localhost:1234 --consumer.config config/consumer.properties --topic enctest  --from-beginning
 ```
 
-Enter arbitry data in the producer and verify that it appears in consumer. 
+Enter arbitrary data in the producer and verify that it appears in consumer. 
 
 Inspect the topic segment files and verify they indeed are encrypted.
 ```
